@@ -19,7 +19,7 @@
     }
 
     function nextQuestion() {
-        return arrQuestion[Math.round(Math.random()*(arrQuestion.length - 1))];
+        return arrQuestion[Math.floor(Math.random() * arrQuestion.length)];
     }
 
     let arrQuestion = [];
@@ -38,5 +38,3 @@
     }
 
 })();
-
-
